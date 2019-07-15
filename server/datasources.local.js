@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   'db': {
     'name': 'db',
@@ -9,20 +11,3 @@ module.exports = {
     'connector': 'mongodb',
   },
 };
-// {
-//     "db": {
-//       "name": "db",
-//       "connector": "memory"
-//     },
-//     "MongoDB": {
-//       "host": "",
-//       "port": 0,
-//       "url": "",
-//       "database": "",
-//       "password": "",
-//       "name": "MongoDB",
-//       "user": "",
-//       "useNewUrlParser": true,
-//       "connector": "mongodb"
-//     }
-//   }
