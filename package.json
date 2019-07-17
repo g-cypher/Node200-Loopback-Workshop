@@ -8,8 +8,8 @@
   "scripts": {
     "test": "mocha test/*.spec.js --exit",
     "lint": "eslint .",
-    "start": "node .",
-    "posttest": "npm audit"
+    "start": "node ."
+    
 
   },
   "dependencies": {
