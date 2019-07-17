@@ -6,10 +6,11 @@
     "node": ">=6"
   },
   "scripts": {
-    "test": "mocha test/*.spec.js",
+    "test": "mocha test/*.spec.js --exit",
     "lint": "eslint .",
     "start": "node .",
     "posttest": "npm run lint && npm audit"
+
   },
   "dependencies": {
     "compression": "^1.0.3",
